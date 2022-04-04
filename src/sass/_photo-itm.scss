@@ -1,0 +1,51 @@
+.photo-card {
+  
+  border-radius: 5px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+
+  display: flex;
+  width: 300px;
+  border: 1px solid lightslategray;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color:lightblue;
+
+
+
+  margin: 15px;
+  display: flex;
+  flex-basis: calc((100% - 120px) / 4);
+}
+
+
+.photo-card :hover {
+  cursor: pointer;
+ 
+}
+
+.img {
+  max-width: 100%;
+  
+}
+
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+  
+
+

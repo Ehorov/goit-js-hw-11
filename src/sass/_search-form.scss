@@ -1,0 +1,31 @@
+.search-form {
+  display: block;
+  margin: 0 auto;
+}
+
+.search-form input {
+  border: 2px solid #eee;
+  border-radius: 5px;
+  font-size: 18px;
+  display: block;
+  margin: 0 auto;
+  color: darkblue;
+  outline: none;
+  padding: 5px;
+}
+
+.search-form input:focus {
+  border-color: lightblue;
+}
+
+.search-form input::placeholder {
+  font-size: 12px;
+
+}
+
+#search-form {
+  
+  padding: 8px;
+  max-width: 320px;
+  margin-bottom: 16px;
+}
